@@ -1,0 +1,110 @@
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $main-bg-color;
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  margin-right: 18px;
+  background-color: $card-bg-color;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 33px 0;
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 700;
+  }
+
+  &__title span {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  &__price {
+    margin: 0;
+    padding: 19px 0;
+    background-color: $light-green-color;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: center;
+
+    &_blue {
+      background-color: $blue-color;
+    }
+
+    &_orange {
+      background-color: $orange-color;
+    }
+  }
+
+  &__desc {
+    padding: 40px 26px 40px;
+    margin: 0;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  &__list {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    list-style-type: none;
+
+    &-item {
+      padding: 16px 59px;
+
+      &:nth-child(odd) {
+        background-color: #2a343880;
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 22px;
+        width: 15px;
+        height: 13px;
+        background-image: url('img/checkmark-green-icon.png');
+      }
+    }
+
+    &_icon-blue li::before {
+      background-image: url('img/checkmark-blue-icon.png');
+    }
+
+    &_icon-orange li::before {
+      background-image: url('img/checkmark-orange-icon.png');
+    }
+  }
+
+  &__order-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 39px;
+
+    &_blue {
+      background-color: $blue-color;
+    }
+
+    &_orange {
+      background-color: $orange-color;
+    }
+  }
+}

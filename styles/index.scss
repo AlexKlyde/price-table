@@ -1,0 +1,29 @@
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: $main-text-color;
+  font-family: Montserrat;
+  font-size: 15px;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.button {
+  width: 155px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  color: #fff;
+  background-color: $light-green-color;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+@import 'price-card';

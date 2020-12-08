@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 15px;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.button {
+  width: 155px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  color: #fff;
+  background-color: #5bb189;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141b1c;
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  margin-right: 18px;
+  background-color: #334247;
+}
+.price-card:last-child {
+  margin-right: 0;
+}
+.price-card__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 33px 0;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+}
+.price-card__title span {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.price-card__price {
+  margin: 0;
+  padding: 19px 0;
+  background-color: #5bb189;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 67px;
+  text-align: center;
+}
+.price-card__price_blue {
+  background-color: #3a6ba5;
+}
+.price-card__price_orange {
+  background-color: #ec632a;
+}
+.price-card__desc {
+  padding: 40px 26px 40px;
+  margin: 0;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: center;
+}
+.price-card__list {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  list-style-type: none;
+}
+.price-card__list-item {
+  padding: 16px 59px;
+}
+.price-card__list-item:nth-child(odd) {
+  background-color: #2a343880;
+}
+.price-card__list-item::before {
+  content: "";
+  position: absolute;
+  left: 22px;
+  width: 15px;
+  height: 13px;
+  background-image: url("img/checkmark-green-icon.png");
+}
+.price-card__list_icon-blue li::before {
+  background-image: url("img/checkmark-blue-icon.png");
+}
+.price-card__list_icon-orange li::before {
+  background-image: url("img/checkmark-orange-icon.png");
+}
+.price-card__order-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 39px;
+}
+.price-card__order-btn_blue {
+  background-color: #3a6ba5;
+}
+.price-card__order-btn_orange {
+  background-color: #ec632a;
+}
+
+/*# sourceMappingURL=styles.css.map */
