@@ -34,13 +34,28 @@ body {
 }
 
 .price-card {
+  position: relative;
   width: 380px;
   height: 770px;
   margin-right: 18px;
   background-color: #334247;
+  overflow: hidden;
 }
 .price-card:last-child {
   margin-right: 0;
+}
+.price-card__badge {
+  position: absolute;
+  top: 30px;
+  right: -32px;
+  width: 147px;
+  height: 25px;
+  background-color: #DC3F45;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  transform: rotate(45deg);
 }
 .price-card__title {
   display: flex;

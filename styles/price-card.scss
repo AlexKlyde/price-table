@@ -7,14 +7,30 @@
 }
 
 .price-card {
+  position: relative;
   width: 380px;
   height: 770px;
   margin-right: 18px;
   background-color: $card-bg-color;
+  overflow: hidden;
 
   &:last-child {
     margin-right: 0;
   }
+
+  &__badge {
+    position: absolute;
+    top: 30px;
+    right: -32px;
+    width: 147px;
+    height: 25px;
+    background-color: #DC3F45;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    transform: rotate(45deg);
+  } 
 
   &__title {
     display: flex;
