@@ -115,13 +115,13 @@ body {
   left: 22px;
   width: 15px;
   height: 13px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+  background-image: url("img/checkmark-green.png");
 }
 .price-card__options-list_icon-blue li::before {
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+  background-image: url("img/checkmark-blue.png");
 }
 .price-card__options-list_icon-orange li::before {
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+  background-image: url("img/checkmark-orange.png");
 }
 .price-card__order-btn {
   display: block;
