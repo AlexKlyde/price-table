@@ -22,6 +22,7 @@ body {
   background-color: #5bb189;
   font-size: 14px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .main-page {
